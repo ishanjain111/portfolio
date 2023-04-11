@@ -32,4 +32,16 @@ export class KnowMoreComponent implements OnInit {
     {title: "Weather Application", description:"This a weather application where user can know the real-time weather condition of the desired city along with that the latitude and longitude value of the city. This application is built using HTML, CSS, JS, ExpressJs and OpenWeather Api. Docker is used for containerization."}
   ]
 
+  certificates = [
+    {validity: "2021 - 2024", title:"Associate Cloud Engineer", provider:"Google Cloud", link:"View Certificate"},
+    {validity: "2022 - 2024", title:"Cloud Practitioner", provider:"Amazon Web Services", link:"View Certificate"},
+    {validity: "2021 - ", title:"Azure Fundamental AZ-900", provider:"Microsoft", link:"View Certificate"}
+  ]
+
+  responsibility = [
+    {title: "Head of Students Welfare Society", description:"Head of the Students Welfare society which is an adminstrative hub of the college for the academic year 2021-2022. Successfully organized many events."},
+    {title: "Management Lead at GDSC JIIT-128", description:"Management Lead of GDSC JIIT-128 chapter for the academic year 2021-2022. Successfully organized a online hackathon with a pool prize of 10 lakhs."},
+    {title: "Google Cloud Facilitator", description:"Built a CNN"}
+  ]
+
 }
